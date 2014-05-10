@@ -44,7 +44,7 @@ const AlsaMixer = new Lang.Class({
             icon_name: 'audio-volume-medium',
             style_class: 'status-icon'
         });
-        this.actor.add_actor(this.statusIcon);
+        this.actor.add(this.statusIcon);
         
         this._onScrollId = this.actor.connect('scroll-event',
             Lang.bind(this, this._onScroll));
