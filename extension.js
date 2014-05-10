@@ -29,7 +29,7 @@ const Util = imports.misc.util;
 const Mainloop = imports.mainloop;
 
 // Step on scroll, and olny on scroll
-const VOLUME_STEP = 5; 
+const VOLUME_STEP = 10; 
 // Mixer element to control, for example 'Master Surround'
 const MIXER_ELEMENT = 'Master';
 
